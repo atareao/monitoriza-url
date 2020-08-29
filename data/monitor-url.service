@@ -1,0 +1,8 @@
+[Unit]
+Description=Monitor url
+
+[Service]
+ExecStart=/usr/bin/env python3 /datos/Sync/Programacion/Python/monitoriza-url/src/monitor.py
+
+[Install]
+WantedBy=multi-user.target
